@@ -1,3 +1,9 @@
+"""
+Early draft — static matplotlib charts, created before the project moved to
+an interactive Plotly + Streamlit dashboard (see app.py). Kept here to show
+the project's progression, not meant to be run as part of the current pipeline.
+"""
+
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
