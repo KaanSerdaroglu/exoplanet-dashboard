@@ -10,4 +10,5 @@ TempCodeRunnerFile.py
 
 # virtual environment, if you keep one around
 test_env/
-venv/.DS_Store
+venv/
+.DS_Store
