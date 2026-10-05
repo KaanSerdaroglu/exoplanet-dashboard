@@ -40,12 +40,22 @@ exoplanet_analyzer/
 ```bash
 git clone https://github.com/KaanSerdaroglu/exoplanet-dashboard.git
 cd exoplanet-dashboard
-pip install -r requirements.txt
 
-python setup_db.py
-python fetch_exoplanets.py
+# create and activate a virtual environment (keeps dependencies isolated from the rest of your system)
+python3 -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+
+# install dependencies
+python3 -m pip install -r requirements.txt
+# if `python3`/`pip` aren't recognized, try `python` / `pip3` instead
+
+python3 setup_db.py
+python3 fetch_exoplanets.py
 streamlit run app.py
+# if `streamlit` isn't recognized as a command, use: python3 -m streamlit run app.py
 ```
+
+When you're done, exit the virtual environment with `deactivate`.
 
 ## Data source
 
