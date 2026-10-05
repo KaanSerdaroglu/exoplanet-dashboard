@@ -339,7 +339,7 @@ with tab0:
 
     Built with Python, SQLite, pandas, Plotly, and Streamlit. Source code
     and the full pipeline (API fetch → database → analysis → this dashboard)
-    available on [GitHub](#).
+    available on [GitHub](https://github.com/KaanSerdaroglu/exoplanet-dashboard).
 """)
 
 with tab1:
